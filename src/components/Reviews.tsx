@@ -41,7 +41,7 @@ export const Reviews: React.FC = () => {
 
   return (
     <section id="reviews" className="w-full flex justify-center py-16 sm:py-20 md:py-24 bg-[#F7EDE6]/40 border-y border-[#3E2F3A]/5 scroll-mt-24">
-      <div className="max-w-6xl w-full mx-auto px-4 sm:px-6 lg:px-8">
+      <div className="max-w-7xl 2xl:max-w-[1500px] w-full mx-auto px-4 sm:px-6 lg:px-8 2xl:px-12">
         
         {/* Section Heading */}
         <div className="text-center max-w-xl mx-auto mb-8 sm:mb-12">

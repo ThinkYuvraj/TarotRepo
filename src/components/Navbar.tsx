@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { PROFILE_INFO } from '../data/content';
+import horizontalLogo from '../assets/images/mukta_shine_horizontal_logo.png';
 import { 
   MessageCircle, 
   Menu, 
@@ -109,9 +110,9 @@ export const Navbar: React.FC<NavbarProps> = ({ onOpenPayment }) => {
     <>
       {/* Sticky Main Header */}
       <header className="sticky top-0 z-40 bg-[#FBF7F0]/95 backdrop-blur-md border-b border-[#3E2F3A]/10 shadow-xs transition-all">
-        <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 h-16 sm:h-20 flex items-center justify-between gap-3">
+        <div className="max-w-7xl 2xl:max-w-[1500px] mx-auto px-4 sm:px-6 lg:px-8 2xl:px-12 h-16 sm:h-20 flex items-center justify-between gap-3">
           
-          {/* Brand Name in Great Vibes script */}
+          {/* Mukta Shine Horizontal Transparent Logo on Cream Header */}
           <div className="shrink-0 flex items-center">
             <a 
               href="#" 
@@ -120,10 +121,14 @@ export const Navbar: React.FC<NavbarProps> = ({ onOpenPayment }) => {
                 window.scrollTo({ top: 0, behavior: 'smooth' });
                 window.history.pushState(null, '', ' ');
               }}
-              className="text-2xl xs:text-[27px] sm:text-3xl font-script tracking-wide text-[#3E2F3A] hover:opacity-90 transition-opacity select-none whitespace-nowrap py-1 cursor-pointer"
-              aria-label="Mukta Bhatnagar Home"
+              className="flex items-center hover:opacity-90 active:scale-98 transition-all select-none py-1 cursor-pointer"
+              aria-label="Mukta Shine – Cellular & Tarot Coach"
             >
-              Mukta Bhatnagar
+              <img 
+                src={horizontalLogo} 
+                alt="Mukta Shine – Cellular & Tarot Coach" 
+                className="h-11 sm:h-13 md:h-14 w-auto object-contain"
+              />
             </a>
           </div>
 
@@ -191,9 +196,11 @@ export const Navbar: React.FC<NavbarProps> = ({ onOpenPayment }) => {
         >
           {/* Top Bar of Overlay */}
           <div className="h-16 px-4 flex items-center justify-between border-b border-[#3E2F3A]/10 bg-[#FBF7F0]/90 sticky top-0 z-10">
-            <span className="text-2xl font-script text-[#3E2F3A]">
-              Mukta Bhatnagar
-            </span>
+            <img 
+              src={horizontalLogo} 
+              alt="Mukta Shine – Cellular & Tarot Coach" 
+              className="h-9 w-auto object-contain"
+            />
 
             <button
               type="button"

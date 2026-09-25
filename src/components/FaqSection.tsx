@@ -11,7 +11,7 @@ export const FaqSection: React.FC = () => {
 
   return (
     <section className="w-full flex justify-center py-16 sm:py-20 md:py-24 bg-[#F7EDE6]/30 border-t border-[#3E2F3A]/5">
-      <div className="max-w-4xl w-full mx-auto px-4 sm:px-6 lg:px-8">
+      <div className="max-w-5xl 2xl:max-w-6xl w-full mx-auto px-4 sm:px-6 lg:px-8 2xl:px-12">
         
         {/* Header */}
         <div className="text-center mb-10 sm:mb-12">

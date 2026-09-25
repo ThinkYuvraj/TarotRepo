@@ -1,6 +1,6 @@
 {
-  "name": "Mukta Bhatnagar - Tarot Reader & Cellular Health Coach",
-  "description": "Seek Clarity, Find Answers. Delhi-based Cellular Health Coach & certified Tarot Reader helping you balance a healthy Mind, Body & Soul.",
+  "name": "Mukta Shine – Cellular & Tarot Coach",
+  "description": "Seek Clarity, Find Answers. Mukta Shine – Cellular & Tarot Coach helping you balance a healthy Mind, Body & Soul.",
   "requestFramePermissions": [],
-  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+  "majorCapabilities": []
 }

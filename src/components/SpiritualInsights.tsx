@@ -7,7 +7,7 @@ export const SpiritualInsights: React.FC = () => {
 
   return (
     <section className="w-full flex justify-center py-16 sm:py-20 md:py-24 bg-[#FBF7F0] border-t border-[#3E2F3A]/5">
-      <div className="max-w-6xl w-full mx-auto px-4 sm:px-6 lg:px-8">
+      <div className="max-w-7xl 2xl:max-w-[1500px] w-full mx-auto px-4 sm:px-6 lg:px-8 2xl:px-12">
         
         {/* Header */}
         <div className="text-center max-w-xl mx-auto mb-10 sm:mb-12">

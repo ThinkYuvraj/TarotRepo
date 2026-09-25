@@ -42,7 +42,9 @@ export interface InsightArticle {
 
 export const PROFILE_INFO = {
   name: "Mukta Bhatnagar",
-  title: "Cellular Health Coach & Tarot Reader",
+  brandName: "Mukta Shine – Cellular & Tarot Coach",
+  brandShort: "Mukta Shine",
+  title: "Cellular & Tarot Coach",
   subtitle: "Helping you balance a healthy Mind, Body & Soul.",
   headline: "Seek Clarity,",
   headlineHighlight: "Find Answers.",

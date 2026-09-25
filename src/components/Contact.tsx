@@ -25,7 +25,7 @@ export const Contact: React.FC = () => {
 
   return (
     <section id="contact" className="w-full flex justify-center py-16 sm:py-20 md:py-24 bg-[#F7EDE6]/50 border-t border-[#3E2F3A]/5 scroll-mt-24">
-      <div className="max-w-6xl w-full mx-auto px-4 sm:px-6 lg:px-8">
+      <div className="max-w-7xl 2xl:max-w-[1500px] w-full mx-auto px-4 sm:px-6 lg:px-8 2xl:px-12">
         
         {/* Main Contact Card */}
         <div className="bg-[#FBF7F0] border border-[#3E2F3A]/10 rounded-3xl p-6 sm:p-10 lg:p-12 shadow-sm mb-10">

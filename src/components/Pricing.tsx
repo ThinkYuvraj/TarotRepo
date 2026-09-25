@@ -40,7 +40,7 @@ export const Pricing: React.FC<PricingProps> = ({ onOpenPaymentModal }) => {
 
   return (
     <section id="pricing" className="w-full flex justify-center py-16 sm:py-20 md:py-24 bg-[#F7EDE6]/50 border-y border-[#3E2F3A]/5 scroll-mt-24">
-      <div className="max-w-6xl w-full mx-auto px-4 sm:px-6 lg:px-8">
+      <div className="max-w-7xl 2xl:max-w-[1500px] w-full mx-auto px-4 sm:px-6 lg:px-8 2xl:px-12">
         
         {/* Section Heading */}
         <div className="text-center max-w-xl mx-auto mb-8 sm:mb-12">
@@ -195,15 +195,15 @@ export const Pricing: React.FC<PricingProps> = ({ onOpenPaymentModal }) => {
             return (
               <div
                 key={pkg.id}
-                className={`relative bg-white rounded-2xl p-6 lg:p-8 flex flex-col justify-between text-center transition-all duration-200 ${
+                className={`relative bg-white rounded-3xl p-6 lg:p-8 xl:p-10 flex flex-col justify-between text-center transition-all duration-300 hover:-translate-y-2 group ${
                   isHighlighted 
-                    ? 'border-2 border-[#E8912D] shadow-lg shadow-[#E8912D]/10 md:-translate-y-1' 
-                    : 'border border-[#3E2F3A]/10 shadow-sm hover:shadow-md'
+                    ? 'border-2 border-[#E8912D] shadow-xl shadow-[#E8912D]/15 md:-translate-y-1' 
+                    : 'border border-[#3E2F3A]/10 shadow-sm hover:shadow-xl hover:shadow-[#3E2F3A]/8'
                 }`}
               >
                 {isHighlighted && (
-                  <div className="absolute -top-3 left-1/2 -translate-x-1/2 bg-[#E8912D] text-white text-[11px] font-bold uppercase tracking-wider px-3 py-0.5 rounded-full flex items-center gap-1 shadow-sm">
-                    <Sparkles className="w-3 h-3" />
+                  <div className="absolute -top-3.5 left-1/2 -translate-x-1/2 shimmer-badge text-white text-[11px] font-bold uppercase tracking-wider px-4 py-1 rounded-full flex items-center gap-1.5 shadow-md">
+                    <Sparkles className="w-3.5 h-3.5" />
                     <span>Most Popular</span>
                   </div>
                 )}

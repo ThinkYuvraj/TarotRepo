@@ -1,5 +1,8 @@
 import React, { useState, useRef } from 'react';
-import muktaMainPhoto from '../assets/images/mukta_saree_reading_1790319437505.jpg';
+import tarotSetupPhoto from '../assets/images/tarot_session_setup_1790318764464.jpg';
+import officeReadingPhoto from '../assets/images/office_reading_session_1790318776804.jpg';
+import sacredAltarPhoto from '../assets/images/sacred_tarot_altar.jpg';
+import wellnessNutritionPhoto from '../assets/images/wellness_nutrition_setup_1790318788492.jpg';
 import { X, ZoomIn, ChevronLeft, ChevronRight } from 'lucide-react';
 
 interface GalleryItem {
@@ -13,35 +16,35 @@ interface GalleryItem {
 
 const GALLERY_ITEMS: GalleryItem[] = [
   {
-    id: "session-main",
-    title: "Mukta Bhatnagar at Reading Table",
-    caption: "Certified Tarot Reader & Cellular Health Coach conducting in-person and phone guidance sessions.",
-    image: muktaMainPhoto,
-    tag: "Consultation Table",
+    id: "tarot-spread",
+    title: "Tarot Cards Spread & Sacred Cloth",
+    caption: "Classic Rider-Waite cards arranged with healing crystal grids and celestial astrological tapestry.",
+    image: tarotSetupPhoto,
+    tag: "Tarot Spread",
     objectPos: "object-center"
   },
   {
-    id: "tarot-spread",
-    title: "Tarot Cards Spread & Healing Crystals",
-    caption: "The Sun, The Lovers, and Emperor cards spread across celestial blue cloth with amethyst and rose quartz.",
-    image: muktaMainPhoto,
-    tag: "Tarot Spread",
-    objectPos: "object-bottom"
-  },
-  {
-    id: "celestial-mandala",
-    title: "Astrological Mandala & Sacred Space",
-    caption: "Golden moon & zodiac wheel backdrop with warm candlelight for centered, peaceful readings.",
-    image: muktaMainPhoto,
-    tag: "Sacred Altar",
-    objectPos: "object-top"
-  },
-  {
     id: "delhi-sanctuary",
-    title: "Delhi Sanctuary & Online Sessions",
-    caption: "Peaceful atmosphere at 36-A, Pocket-A, MIG Flats, GTB Enclave, Delhi 110093.",
-    image: muktaMainPhoto,
+    title: "Delhi Sanctuary & Consultation Space",
+    caption: "Peaceful atmosphere at 36-A, Pocket-A, MIG Flats, GTB Enclave, Delhi for in-person readings.",
+    image: officeReadingPhoto,
     tag: "Reading Sanctuary",
+    objectPos: "object-center"
+  },
+  {
+    id: "sacred-altar",
+    title: "Sacred Altar & Healing Crystals",
+    caption: "Tibetan singing bowl, amethyst cluster, rose quartz crystals, and warm candlelight for spiritual clarity.",
+    image: sacredAltarPhoto,
+    tag: "Crystal Altar",
+    objectPos: "object-center"
+  },
+  {
+    id: "wellness-setup",
+    title: "Cellular Nutrition & Herbal Wellness",
+    caption: "Holistic health remedies, pure herbal extracts, and personalized wellness coaching plans.",
+    image: wellnessNutritionPhoto,
+    tag: "Holistic Wellness",
     objectPos: "object-center"
   }
 ];
@@ -81,7 +84,7 @@ export const Gallery: React.FC = () => {
 
   return (
     <section id="gallery" className="w-full flex justify-center py-16 sm:py-20 md:py-24 bg-[#FBF7F0] scroll-mt-24">
-      <div className="max-w-6xl w-full mx-auto px-4 sm:px-6 lg:px-8">
+      <div className="max-w-7xl 2xl:max-w-[1500px] w-full mx-auto px-4 sm:px-6 lg:px-8 2xl:px-12">
         
         {/* Header */}
         <div className="text-center max-w-xl mx-auto mb-8 sm:mb-12">
